@@ -1,0 +1,11 @@
+1.Buatlah deskripsi diri kalian dengan menggunakan HTML Dengan ketentuan informasi : nama. asal kota. usia. alasan masuk ke telkom/ d3 sistem informasi
+Kriteria penulisan :
+- ada unsur bold & undertine & color text pada kata penegasan/keypoint
+- Judul : Deskripsi Diri dengan ukuran <h2>
+- Tulisan Minimal 50 kata
+
+2. Membuat form input dengan isi : Nama NIM. Kelas.
+Absen Jenis Kelamin serta tornbol submit dan hapus
+(menggunakan tabel)
+
+Link Pengumpulan : https://bit.ly/JournalIDAP2022
