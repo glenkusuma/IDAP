@@ -1,0 +1,12 @@
+Buatlah teks deskripsi daerah seperti contoh diatas menggunakan HTML! (misal Bandung.Bogor.dlD.
+Harus mengandung tag — tag berikut :
+- Ordered list
+- Form saran berisikan (nama lengkap. email. asal negara menggunakan tag select , saran &
+Keterangan :
+- Title : Tes Akhir
+- Judut Ukuran Bold
+- SubJudul Ukuran 14. Bold
+- Isi 12pt
+
+Link Pengumpulan : https://bit.ly/PengumpulanTAIDAP2022
+Deadline : 21 Oktober 2022. Pukul 23:59;
