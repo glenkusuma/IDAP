@@ -1,0 +1,130 @@
+<!--6701213049 Glen Davis Kusuma D3SI-45-03-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Form Pendaftaran Mahasiswa</title>
+    <style>
+        table { border-color: #ffffff;
+                background-color: #eaeaea;
+                align-self: center;
+                margin: auto;}
+        th, td {text-align: left;
+                padding: 8px;}
+
+        tr:nth-child(even) {background-color: #d1d1d1;}
+        h1 {    margin: auto;
+                text-align: center;}
+        hr{     border: 4px solid black;
+                border-radius: 8px;
+                width: 50%;
+                margin-left: 0;}
+        </style>
+</head>
+<body>
+    <h1>Form Pedaftaran Mahasiswa</h1>
+    <form action="" method="get">
+        <table>
+        <tr>
+            <!-- form nama lengkap -->
+            <td><label for="namaD">Nama Depan</label></td>
+            <td><input type="text" name="namaD" id="nama"></td>
+            <td><label for="namaB">Nama Belakang</label></td>
+            <td><input type="text" name="namaB" id="nama"></td>
+        </tr>
+        <tr>
+            <!-- form tempat tanggal lahir -->
+            <td><label for="tempatLahir"></label>Tempat Lahir</td>
+            <td><input type="text" name="tempatLahir" id=""></td>
+            <td><label for="tanggalLahir">Tanggal Lahir</label></td>
+            <td><input type="date" name="tanggalLahir" id=""></td>
+        </tr>
+        <tr>
+            <!-- form asal sekolah -->
+            <td><label for="asalSekolah"></label>Asal Sekolah</td>
+            <td><input type="text" name="asalSekolah" id="asalSekolah"></td>
+            <td colspan="2"></td>
+
+        </tr>
+        <tr>
+            <!-- form alamat -->
+            <td><label for="alamat"></label>Alamat Rumah</td>
+            <td><input type="text" name="alamat" id="alamat"></td>
+            <td colspan="2"></td>
+
+        </tr>
+        <tr>
+            <!-- form jenis Kelamin -->
+            <td><label for="jk">Jenis Kelamin</label></td>
+            <td>
+                <input type="radio" name="jk" value="Laki-Laki">Laki-Laki <br>
+                <input type="radio" name="jk" value="Perempuan">Perempuan
+            </td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- form anak ke- -->
+            <td><label for="anakke">Anak ke-</label></td>
+            <td><input type="text" name="anakke" id="anakke"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- form agama -->
+            <td><label for="agama">Agama</label></td>
+            <td><select name="agama" id="agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Konghucu</option>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- form warna -->
+            <td><label for="warna">Warna Kesukaan</label></td>
+            <td><input type="color" name="warna" id="warna"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- form email -->
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email"></td>
+            <!-- form password -->
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <!-- form upload foto -->
+            <td><label for="foto">Upload Foto</label></td>
+            <td><input type="file" name="foto" id="foto"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><hr></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- form nama ayah nama ibu -->
+            <td><label for="namaAyah">Nama Ayah</label></td>
+            <td><input type="text" name="namaAyah" id="namaAyah"></td>
+            <td><label for="namaIbu">Nama Ibu</label></td>
+            <td><input type="text" name="namaIbu" id="namaIbu"></td>
+        </tr>
+        <tr>
+            <!-- form hobi -->
+            <td><label for="hobi">Hobi</label></td>
+            <td><input type="checkbox" name="hobi" value="Renang">Renang <br>
+                <input type="checkbox" name="hobi" value="Futsal">Futsal <br>
+                <input type="checkbox" name="hobi" value="Basket">Basket <br>
+                <input type="checkbox" name="hobi" value="Ngoding">Ngoding <br>
+                <input type="checkbox" name="hobi" value="Fotografi">Fotografi
+                <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </form>
+</body>
+</html>
