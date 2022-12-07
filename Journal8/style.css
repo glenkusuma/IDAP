@@ -1,0 +1,60 @@
+        * {
+            margin: 0 auto;
+        }
+
+        html {
+            background-image: url('./img/background.jpg');
+            background-size: cover;
+        }
+
+        main {
+            background-color: white;
+            margin: 5rem;
+            border-radius: 1rem;
+            padding: 1rem 1rem;
+        }
+
+        header {
+            background-color: #1793e5;
+            padding: 1.5rem 0 1.5rem 2rem;
+            font-size: 0.8rem;
+            color: white;
+            border-radius: 0.5rem;
+        }
+
+        .poster {
+            display: flex;
+            justify-content: center;
+            margin: 0.5rem 0;
+        }
+
+        .poster img {
+            max-width: 90%;
+        }
+
+        .content {
+            display: flex;
+            margin: 2rem 0;
+            justify-content: space-between;
+        }
+
+        .content .card {
+            margin: 0 0.5rem;
+        }
+
+        .content .card h2 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #1781c8;
+            padding: 1rem 0 1rem 3rem;
+            color: white;
+            border-radius: 0.5rem;
+            text-align: center;
+            font-weight: bold;
+        }
+        footer h1 {
+            font-size: 1.5rem;
+        }
